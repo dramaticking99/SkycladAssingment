@@ -1,0 +1,106 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Xcode & Build Artifacts
+# =========================
+build/
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+
+# Per-user Xcode settings (keep shared schemes!)
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Old Xcode project user files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Test/Report bundles (can be huge)
+*.xcresult
+
+# =========================
+# Swift Package Manager
+# =========================
+.build/
+.swiftpm/
+# NOTE: Keep Package.resolved for apps to lock dependency versions
+#!Package.resolved
+
+# =========================
+# CocoaPods (if you use it)
+# =========================
+Pods/
+# Keep the workspace if CocoaPods generates it
+# (You can commit the .xcworkspace; user data is ignored above)
+
+# =========================
+# Carthage (if you use it)
+# =========================
+Carthage/Build/
+Carthage/Checkouts/
+
+# =========================
+# fastlane (if you use it)
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+# Keep fastlane/Fastfile & Appfile (do not ignore)
+
+# =========================
+# Archives / Distribution
+# =========================
+*.ipa
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# =========================
+# Crash / Logs
+# =========================
+*.crash
+*.ips
+*.log
+
+# =========================
+# Tools / Linters (optional)
+# =========================
+.swiftlint.cache
+# .swiftlint.yml  # usually commit this
+# .swiftformat     # usually commit this
+
+# =========================
+# Secrets / Env (optional)
+# =========================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# =========================
+# JetBrains AppCode (optional)
+# =========================
+.idea/
+*.iml
+
